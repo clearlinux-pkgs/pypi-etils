@@ -4,10 +4,10 @@
 # Using build pattern: pyproject
 #
 Name     : pypi-etils
-Version  : 1.1.1
-Release  : 14
-URL      : https://files.pythonhosted.org/packages/66/bd/4c53d0bbd41ded8a78df5a369736efdb15c4a14c463a49ed86524c4ea27f/etils-1.1.1.tar.gz
-Source0  : https://files.pythonhosted.org/packages/66/bd/4c53d0bbd41ded8a78df5a369736efdb15c4a14c463a49ed86524c4ea27f/etils-1.1.1.tar.gz
+Version  : 1.2.0
+Release  : 15
+URL      : https://files.pythonhosted.org/packages/fd/c5/af049dcc223a63e8134cac42279d4d176a42fdd47c29b6631ad0c398685a/etils-1.2.0.tar.gz
+Source0  : https://files.pythonhosted.org/packages/fd/c5/af049dcc223a63e8134cac42279d4d176a42fdd47c29b6631ad0c398685a/etils-1.2.0.tar.gz
 Summary  : Collection of common python utils
 Group    : Development/Tools
 License  : Apache-2.0
@@ -53,10 +53,10 @@ python3 components for the pypi-etils package.
 
 
 %prep
-%setup -q -n etils-1.1.1
-cd %{_builddir}/etils-1.1.1
+%setup -q -n etils-1.2.0
+cd %{_builddir}/etils-1.2.0
 pushd ..
-cp -a etils-1.1.1 buildavx2
+cp -a etils-1.2.0 buildavx2
 popd
 
 %build
@@ -64,7 +64,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1679411922
+export SOURCE_DATE_EPOCH=1680619447
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
