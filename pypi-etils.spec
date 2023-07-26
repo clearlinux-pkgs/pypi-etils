@@ -4,10 +4,10 @@
 # Using build pattern: pyproject
 #
 Name     : pypi-etils
-Version  : 1.3.0
-Release  : 16
-URL      : https://files.pythonhosted.org/packages/e7/e5/fdbaca6a543f459a28b6713cdda7bccfb340b2c048c0982f654f1e1f5173/etils-1.3.0.tar.gz
-Source0  : https://files.pythonhosted.org/packages/e7/e5/fdbaca6a543f459a28b6713cdda7bccfb340b2c048c0982f654f1e1f5173/etils-1.3.0.tar.gz
+Version  : 1.4.0
+Release  : 17
+URL      : https://files.pythonhosted.org/packages/ae/aa/6f4eafd232e872edb410339d789723122877d55ff5b3c4633a7039b143f5/etils-1.4.0.tar.gz
+Source0  : https://files.pythonhosted.org/packages/ae/aa/6f4eafd232e872edb410339d789723122877d55ff5b3c4633a7039b143f5/etils-1.4.0.tar.gz
 Summary  : Collection of common python utils
 Group    : Development/Tools
 License  : Apache-2.0
@@ -24,6 +24,7 @@ BuildRequires : pypi(flit_core)
 # Etils
 [![Unittests](https://github.com/google/etils/actions/workflows/pytest_and_autopublish.yml/badge.svg)](https://github.com/google/etils/actions/workflows/pytest_and_autopublish.yml)
 [![PyPI version](https://badge.fury.io/py/etils.svg)](https://badge.fury.io/py/etils)
+[![Documentation Status](https://readthedocs.org/projects/etils/badge/?version=latest)](https://etils.readthedocs.io/en/latest/?badge=latest)
 
 %package license
 Summary: license components for the pypi-etils package.
@@ -53,10 +54,10 @@ python3 components for the pypi-etils package.
 
 
 %prep
-%setup -q -n etils-1.3.0
-cd %{_builddir}/etils-1.3.0
+%setup -q -n etils-1.4.0
+cd %{_builddir}/etils-1.4.0
 pushd ..
-cp -a etils-1.3.0 buildavx2
+cp -a etils-1.4.0 buildavx2
 popd
 
 %build
@@ -64,7 +65,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1683903352
+export SOURCE_DATE_EPOCH=1690386873
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
