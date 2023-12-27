@@ -7,7 +7,7 @@
 #
 Name     : pypi-etils
 Version  : 1.6.0
-Release  : 23
+Release  : 24
 URL      : https://files.pythonhosted.org/packages/68/22/e753d5d69da69ce5dfcefb4bf3deff60ecc62ee75b1c10c2d3548db5399c/etils-1.6.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/68/22/e753d5d69da69ce5dfcefb4bf3deff60ecc62ee75b1c10c2d3548db5399c/etils-1.6.0.tar.gz
 Summary  : Collection of common python utils
