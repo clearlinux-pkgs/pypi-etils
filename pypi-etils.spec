@@ -6,10 +6,10 @@
 # autospec commit: fbcebd0
 #
 Name     : pypi-etils
-Version  : 1.9.1
-Release  : 28
-URL      : https://files.pythonhosted.org/packages/5b/8d/47dbeb2524c9a9a6c477af2de6390654a83a2e960241b29d3d7848e6fbc8/etils-1.9.1.tar.gz
-Source0  : https://files.pythonhosted.org/packages/5b/8d/47dbeb2524c9a9a6c477af2de6390654a83a2e960241b29d3d7848e6fbc8/etils-1.9.1.tar.gz
+Version  : 1.9.2
+Release  : 29
+URL      : https://files.pythonhosted.org/packages/ba/49/d480aeb4fc441d933acce97261bea002234a45fb847599c9a93c31e51b2e/etils-1.9.2.tar.gz
+Source0  : https://files.pythonhosted.org/packages/ba/49/d480aeb4fc441d933acce97261bea002234a45fb847599c9a93c31e51b2e/etils-1.9.2.tar.gz
 Summary  : Collection of common python utils
 Group    : Development/Tools
 License  : Apache-2.0
@@ -56,10 +56,10 @@ python3 components for the pypi-etils package.
 
 
 %prep
-%setup -q -n etils-1.9.1
-cd %{_builddir}/etils-1.9.1
+%setup -q -n etils-1.9.2
+cd %{_builddir}/etils-1.9.2
 pushd ..
-cp -a etils-1.9.1 buildavx2
+cp -a etils-1.9.2 buildavx2
 popd
 
 %build
@@ -67,7 +67,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1717550826
+export SOURCE_DATE_EPOCH=1718228687
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
