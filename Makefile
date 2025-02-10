@@ -1,5 +1,5 @@
 PKG_NAME := pypi-etils
-URL = https://files.pythonhosted.org/packages/85/28/8a4d0614a7864c1c703f848dedb69d2f532a623ffb0159e390c06ad20279/etils-1.11.0.tar.gz
+URL = https://files.pythonhosted.org/packages/6a/f4/1b64bc8088adfeb421bb220cac71a7696a31e89c24c6f8a89a0d2427ab6a/etils-1.12.0.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
